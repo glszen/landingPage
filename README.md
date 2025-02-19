@@ -1,4 +1,4 @@
-# Mamba Design System
+# Tailwind Design 
 
 Mamba Design System is a versatile and modular design toolkit built for tech startups. It provides a responsive and easy-to-use interface with modern design elements, ensuring flexibility and functionality for your website's development.
 
