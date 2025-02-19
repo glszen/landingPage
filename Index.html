@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <title>Document</title>
+</head>
+<body class="container mx-auto w-300 bg-gray-100 py-5">
+    <nav class="bg-zinc-50 rounded-sm">
+        <div class="  mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open maindd menu</span>
+                <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex shrink-0 items-center">
+                <img class="h-8 w-auto" src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=purple&shade=500" alt="Your Company">
+              </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <div class="relative ml-3">
+                <div>
+                    <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-950 hover:bg-gray-700 hover:text-black">Link</a>
+                    <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-950 hover:bg-gray-700 hover:text-black">Link</a>
+                    <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-stone-950 hover:bg-gray-600 hover:text-black">Link</a>
+                    <a href="#" class="rounded-md bg-purple-700 px-3 py-2 text-sm font-medium text-white" aria-current="page">Sign  Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pt-2 pb-3">
+            <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Dashboard</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Team</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="grid grid-cols-12 pt-15 gap-4">
+        <div class="bg-purple-700 col-span-5 row-span-35 rounded-sm bg-zinc-50">
+          <div class=" justify-self-center">
+            <p class="text-purple-700 text-center mt-15">Mamba design system</p>
+            <p class=" text-center mt-2 h-10 text-5xl font-bold ">Built it with <p class="text-center mt-2 h-10 text-5xl font-bold">Mamba
+            </p> 
+        </p>
+            <p class=" text-center mt-10 h-10">
+              Modular and versatile. The ultimate design toolkit for savy technology startups.
+            </p>
+            <div class="pt-10">
+              <form class="w-full max-w-md">
+                <div class="md:flex md:items-center mb-6">
+                  <div class="md:w-1/5">
+                  </div>
+                  <div class="md:w-2/3">
+                    <input class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" placeholder="Your Name">
+                  </div>
+                </div>
+                <div class="md:flex md:items-center">
+                  <div class="md:w-1/5">
+                   
+                  </div>
+                  <div class="md:w-2/3">
+                    <input class="bg-white appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" placeholder="Email Adress">
+                  </div>
+                </div>
+                <div class="md:flex md:items-center mb-6">
+                  <div class="md:w-1/3"></div>
+                </div>
+                <div class="md:flex ">
+                  <div class="md:w-1/5"></div>
+                  <div class="md:w-2/3">
+                    <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-22 rounded" type="button">
+                      Join the waitlist
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-600 col-span-7 row-span-35 rounded-sm bg-violet-50">
+          <img src="Images/coffeeplant.jpg" alt="" class="rounded-sm">
+        </div>
+      </div>
+
+      <div class="text-center text-purple-600 pt-10">
+        <p>HOW IT WORKS</p>
+        <p class="text-4xl font-bold text-black mt-2">Building with Mamba is simple</p>
+      </div>
+
+      <div>
+        <div class="flex justify-center mt-20 mb-20 gap-30">
+          <div class="box-border w-80 size-40 bg-zinc-50 p-4 rounded-sm">
+            <div class="rounded-full w-8 h-8 bg-purple-600 text-center mt-2 text-white p-1 font-bold ">1</div>
+            <p class="font-medium mt-2"><a class="font-bold">Nulla.</a>Nostrum, corrupti blanditiis. Illum, architecto?</p>
+             </div>
+          <div class="box-border w-80  size-40 bg-zinc-50 p-4 rounded-sm">
+            <div class="rounded-full w-8 h-8 bg-purple-600 text-center mt-2 text-white p-1 font-bold">2</div>
+            <p class="font-medium mt-2"><a class="font-bold">Accusantium.</a>Vitae saepe atque neque sunt eius dolor veniam alias debitis?</p>
+          </div>
+          <div class="box-border w-80  size-40 bg-zinc-50 p-4 rounded-sm">
+            <div class="rounded-full w-8 h-8 bg-purple-600 text-center mt-2 text-white p-1 font-bold">3</div>
+            <p class="font-medium mt-2"><a class="font-bold">Maxime.</a>Expedita temporibus culpa reprehenderit doloribus consectetur odio!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-12 pt-10 gap-5 ">
+        <div class="bg-purple-700 col-span-6 row-span-17 rounded-sm bg-zinc-50 ">
+          <div class=" justify-self-center ">
+            <img src="images/plant.jpg" class="rounded-md" alt="">
+          </div>
+        </div>
+        <div class="bg-purple-700 col-span-6 row-span-17 rounded-sm bg-zinc-50 rounded-md ">
+          <div class=" justify-self-center text-center rounded-md pt-29 p-20">
+            <p class="font-medium text-zinc-800">"Et, dignissimos obcaecati. Recusandae praesentium doloribus vitae? Rem unde atque molliria!"</p>
+            <p class=" text-zinc-600 mt-10">Leroy Jenkins</p>
+            <p class=" text-zinc-600">CEO of Company Co.</p>
+          </div>
+        </div>
+      </div>
+      <div class="pt-20 pb-25">
+        <div class="box-border w-300 pt-7 bg-zinc-50 p-4 rounded-sm h-55">
+          <p class="font-bold mt-2 ms-3 text-4xl text-zinc-800"> Create with us</p>
+           <p class="mt-3 p-3 text-zinc-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam eius, eaque blanditiis libero officia explicabo iusto? Modi sed labore laborum! Veniam, mollitia! Eveniet tenetur aliquam cupiditate nemo sit distinctio incidunt voluptatum, dolorem blanditiis sapiente maiores ea deserunt omnis pariatur atque, repellendus quasi obcaecati temporibus fugit quo.</p>
+      </div>
+
+         
+      <div class="grid grid-cols-11 pt-20 ">
+        <div class="bg-purple-700 col-span-6 row-span-16 rounded-sm bg-zinc-50 ">
+          <div class=" justify-self-center ">
+            <img src="images/coffee.jpg" class="rounded-md" alt="">
+          </div>
+        </div>
+        <div class="bg-purple-700 col-span-5 row-span-16 rounded-sm bg-zinc-50 rounded-md ">
+          <div class="rounded-full w-20 h-9 bg-purple-600 text-center mt-5 ms-5 text-white p-1 font-medium"><p>Business</p></div>
+          <div class=" justify-self-center text-start ms-5 rounded-md pt-4">
+            <p class="font-bold text-3xl text-zinc-700 ">Curating a workplace that inspires team movement</p>
+            <p class=" text-zinc-600 mt-10 pt-30">November 30, 2020</p>
+            <p class=" text-zinc-600">By Leroy Jenkins</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-center mt-20 mb-20 gap-5">
+          <div class="box-border w-100 size-40 bg-zinc-50 p-4 rounded-sm">
+            <p class="font-medium pt-10 ps-5"><a class="font-bold">Panel-based blocks.</a>Flexible panels that are perfect for building functional layouts.</p>
+             </div>
+          <div class="box-border w-100 ps-10 size-40 bg-zinc-50 p-4 rounded-sm">   
+            <p class="font-medium pt-10"><a class="font-bold">Responsive design. </a>Panels look great no matter the device.</p>
+          </div>
+          <div class="box-border ps-9 w-100 size-40 bg-zinc-50 p-4 rounded-sm">
+           
+            <p class="font-medium pt-10"><a class="font-bold">Premium support.</a>Join over 50 000 satisfied customers who use our templates</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-12 pt-5 ">
+        <div class="bg-purple-700 col-span-15 h-170 rounded-sm bg-zinc-50 ">
+          <div class=" justify-self-center ">
+           <p class="text-4xl font-bold text-center mt-15 text-zinc-700"> Our team is here to help you. </p>
+           <p class=" font-medium text-center mt-5 text-zinc-700"> Meet our crew > </p>
+           <img class="w-250 h-auto pt-6" src="Images/table.jpg" alt="">
+          </div>
+        </div>
+      </div>
+</body>
+</html>
